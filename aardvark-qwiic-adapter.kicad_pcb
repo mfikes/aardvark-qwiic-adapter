@@ -590,7 +590,7 @@
     )
   )
 
-  (gr_rect (start 129.54 85.09) (end 130.75 87.66)
+  (gr_rect (start 129.3876 85.09) (end 130.5976 87.66)
     (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp 27e89f4f-8cfe-49ff-b941-9ca615c56c90))
   (gr_rect (start 114.3 76.2) (end 137.16 96.52)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp d921096a-739b-4671-aad8-db4cc9703e79))
