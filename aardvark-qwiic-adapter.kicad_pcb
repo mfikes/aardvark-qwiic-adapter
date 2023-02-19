@@ -6,8 +6,8 @@
 
   (paper "USLetter")
   (title_block
-    (title "Aardvark I2C Breakout")
-    (date "2023-02-18")
+    (title "Aardvark QUIIC Adapter")
+    (date "2023-02-19")
     (rev "1.0")
   )
 
@@ -648,8 +648,9 @@
   (segment (start 127.635 78.105) (end 134.62 78.105) (width 0.25) (layer "B.Cu") (net 3) (tstamp f8843cbe-c0df-422d-8ba1-c4771b58d136))
   (segment (start 127 90.0938) (end 124.841 87.9348) (width 0.25) (layer "B.Cu") (net 3) (tstamp f999a180-e6d7-4501-a064-8670e690c693))
   (segment (start 131.783299 82.455) (end 133.445 82.455) (width 0.25) (layer "B.Cu") (net 3) (tstamp fa678677-a683-4ec2-a01d-565605962282))
-  (segment (start 127.155 86.84) (end 127 86.995) (width 0.25) (layer "F.Cu") (net 4) (tstamp 9f3d1e34-10a6-4be2-8d24-e7cd9bb93ea3))
-  (segment (start 127.155 84.43) (end 127.155 86.84) (width 0.25) (layer "F.Cu") (net 4) (tstamp dedcd4df-4184-439c-91a3-327fe0dbbba3))
+  (segment (start 127.155 85.9256) (end 127.155 84.43) (width 0.25) (layer "F.Cu") (net 4) (tstamp 501d041f-2c51-45ef-a595-e83a5d51e852))
+  (segment (start 127 86.0806) (end 127.155 85.9256) (width 0.25) (layer "F.Cu") (net 4) (tstamp 96b1eac7-4726-47bb-bcea-145053ecb8f0))
+  (segment (start 127 86.995) (end 127 86.0806) (width 0.25) (layer "F.Cu") (net 4) (tstamp f4312873-ec78-4ed5-910a-f1742f9d49d8))
   (segment (start 121.0564 91.8718) (end 121.0564 87.2998) (width 0.25) (layer "F.Cu") (net 5) (tstamp 28ad076b-c702-43b8-8236-5cacbfce7a09))
   (segment (start 120.1166 86.36) (end 116.84 86.36) (width 0.25) (layer "F.Cu") (net 5) (tstamp 3ec9b7cf-8d16-47a7-a13f-b0609f77112f))
   (segment (start 129.4892 86.36) (end 128.8542 86.995) (width 0.25) (layer "F.Cu") (net 5) (tstamp 55fbf5bf-9e0d-449b-bb41-440a764e8610))
@@ -690,10 +691,11 @@
   (segment (start 134.62 86.36) (end 133.445 85.185) (width 0.25) (layer "F.Cu") (net 10) (tstamp 72893657-ec4f-4e3b-973d-4494eaf4faaa))
   (segment (start 133.445 84.995) (end 130.12 84.995) (width 0.25) (layer "F.Cu") (net 10) (tstamp 8714c7ec-a8a8-4a0c-9b32-0e263d746934))
   (segment (start 128.0052 82.8802) (end 123.2408 82.8802) (width 0.25) (layer "F.Cu") (net 10) (tstamp 8bd18978-d0e1-45cb-81b5-bd6adc827053))
+  (segment (start 122.555 85.8774) (end 122.555 84.43) (width 0.25) (layer "F.Cu") (net 10) (tstamp 9ddbc0cd-26f3-4075-a3e6-138f8db959a1))
   (segment (start 122.555 83.566) (end 122.555 84.43) (width 0.25) (layer "F.Cu") (net 10) (tstamp ad99f1ef-1477-4c2c-ac70-7deeba685663))
+  (segment (start 122.87 86.1924) (end 122.555 85.8774) (width 0.25) (layer "F.Cu") (net 10) (tstamp ca16195c-d9cd-47fc-9412-8324f88a18cc))
+  (segment (start 122.87 86.995) (end 122.87 86.1924) (width 0.25) (layer "F.Cu") (net 10) (tstamp cc6aa00c-546a-4f1b-a37d-8f8465b47d58))
   (segment (start 130.12 84.995) (end 128.0052 82.8802) (width 0.25) (layer "F.Cu") (net 10) (tstamp db7fc85e-91fa-4017-aea6-95ffdec0fa05))
-  (segment (start 122.555 86.68) (end 122.87 86.995) (width 0.25) (layer "F.Cu") (net 10) (tstamp e64ba111-10b7-4c62-b99e-ae28cc54f213))
-  (segment (start 122.555 84.43) (end 122.555 86.68) (width 0.25) (layer "F.Cu") (net 10) (tstamp f8b136f9-ba84-4a9e-bc35-0958b13c4c01))
 
   (zone (net 3) (net_name "GND") (layer "B.Cu") (tstamp c0a61158-50b8-4b02-9668-c970a6c2aefa) (hatch edge 0.5)
     (connect_pads (clearance 0.5))
