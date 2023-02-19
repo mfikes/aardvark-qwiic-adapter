@@ -1,3 +1,3 @@
-# aardvark-i2c-breakout
+# aardvark-qwiic-adapter
 
-Breakout from Total Phase Aardvark 10-pin connector to I2C pins
+Adapter from Total Phase Aardvark 10-pin connector to QWIIC pins, along with GPIO breakout
