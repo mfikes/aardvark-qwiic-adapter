@@ -5,8 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (title "Aardvark I2C Breakout")
-    (date "2023-02-18")
+    (title "Aardvark QWIIC Adapter")
+    (date "2023-02-19")
     (rev "1.0")
   )
 
